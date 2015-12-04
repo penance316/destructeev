@@ -1,0 +1,12 @@
+<div class="jumbotron text-center">
+    <h1>MessageId: {{ idHash }}</h1>
+
+</div>
+
+
+<div class="form-group">
+    <label for="comment">Message:</label>
+    <textarea class="form-control" ng-disabled="disableTb" rows="5" id="comment">{{messageContent}}</textarea>
+</div>
+
+<div class="alert alert-danger" ng-show="messageDeleted" role="alert">Note: this message has now been deleted from our servers. If you refresh it will be gone!</div>

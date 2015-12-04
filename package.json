@@ -1,0 +1,18 @@
+{
+  "name": "destructee",
+  "version": "0.0.0",
+  "private": true,
+  "author": "Nero Denney",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "~1.5.2",
+    "express": "~4.7.2",
+    "method-override": "~2.1.2",
+    "mongoose": "^4.2.8",
+    "morgan": "~1.2.2",
+    "shortid": "^2.2.4"
+  },
+  "devDependencies": {
+    "jscs": "^2.6.0"
+  }
+}
